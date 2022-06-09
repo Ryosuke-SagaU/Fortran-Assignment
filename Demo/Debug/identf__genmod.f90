@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Tue Jun 07 17:56:42 2022
+        MODULE IDENTF__genmod
+          INTERFACE 
+            FUNCTION IDENTF(A) RESULT(IDENTF_0)
+              CHARACTER(LEN=1) :: A
+              CHARACTER(LEN=20) :: IDENTF_0
+            END FUNCTION IDENTF
+          END INTERFACE 
+        END MODULE IDENTF__genmod

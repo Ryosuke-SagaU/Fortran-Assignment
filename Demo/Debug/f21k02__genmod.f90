@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Tue Jun 07 17:56:42 2022
+        MODULE F21K02__genmod
+          INTERFACE 
+            FUNCTION F21K02(A) RESULT(F21K02_0)
+              CHARACTER(LEN=1) :: A
+              REAL(KIND=4) :: F21K02_0
+            END FUNCTION F21K02
+          END INTERFACE 
+        END MODULE F21K02__genmod

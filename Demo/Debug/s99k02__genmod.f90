@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Tue Jun 07 17:56:42 2022
+        MODULE S99K02__genmod
+          INTERFACE 
+            SUBROUTINE S99K02(FUN,MESS)
+              CHARACTER(LEN=6) :: FUN
+              INTEGER(KIND=4) :: MESS
+            END SUBROUTINE S99K02
+          END INTERFACE 
+        END MODULE S99K02__genmod
