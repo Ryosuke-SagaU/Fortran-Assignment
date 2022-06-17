@@ -29,23 +29,13 @@
     do i=1,7
         Twso=i+22.0
         call KDI1(Twso, eta, mwf, mws, mcs, Wp, Qe, Qc)
-        write(1,*)
-        write(1,*)
-        write(1,*)
-        write(1,*)
-        write(1,*)
         write(1,*)'i=',Twso
-        write(1,*)
-        write(1,*)'îMå¯ó¶'
         write(1,*)'eta=',eta*100
-        write(1,*)
-        write(1,*)'çÏìÆó¨ëÃó¨ó '
+        write(1,*)'Wp=',Wp
+        write(1,*)'Qe=',Qe
+        write(1,*)'Qc=',Qc
         write(1,*)'mwf=',mwf
-        write(1,*)
-        write(1,*)'â∑êÖó¨ó '
         write(1,*)'mws=',mws
-        write(1,*)
-        write(1,*)'ó‚êÖó¨ó '
         write(1,*)'mcs=',mcs
     end do
     
@@ -98,7 +88,6 @@
     eta=((h1-h2)-(h4-h3))/(h1-h4)
     
     mwf=Wt/((h1-h2)*1000)
-    cmwf=mwf
     
     Wp=mwf*(h4-h3)*1000
     Qe=mwf*(h1-h4)*1000
